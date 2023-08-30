@@ -1,0 +1,57 @@
+/* ************ BACKGROUND ***************/
+.bg-night-grey-3 {
+    background-color: #352F44;
+}
+.bg-night-grey-2 {
+    background-color: #5C5470;
+}
+.bg-night-grey-1 {
+    background-color: #B9B4C7;
+}
+.bg-cream-white-1 {
+    background-color: #FAF0E6;
+}
+
+/* ************** COLOR **************** */
+.color-cream-white-1 {
+    background-color: #FAF0E6;
+}
+
+
+/* ************** TEXT **************** */
+
+.text-center {
+    text-align: center;
+}
+
+.text-decoration-ul {
+    text-decoration: underline;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+/* ************** HEADER ************** */
+.heading-s {
+    font-size: 1.25rem;
+}
+
+.heading-m {
+    font-size: 1.50rem;
+}
+
+.heading-l {
+    font-size: 1.75rem;
+}
+
+.heading-xl {
+    font-size: 2rem;
+}
+
+/* ************** CONTAINER ************** */
+
+.container {
+    max-width: 1100px;
+    margin:0 auto;
+}
