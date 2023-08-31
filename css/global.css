@@ -17,6 +17,15 @@
     background-color: #FAF0E6;
 }
 
+/* ************* FONT-FAMILY *************** */
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif
+}
 
 /* ************** TEXT **************** */
 
@@ -49,9 +58,34 @@
     font-size: 2rem;
 }
 
+/************ BUTTONS **************/
+
+.btn {
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+}
+
+.btn-dark {
+    background-color: #5C5470;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #fff;
+    color: #5C5470;
+    border: 0.5px solid #5C5470;
+    transition: all 0.2s ease-in;
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
 /* ************** CONTAINER ************** */
 
 .container {
     max-width: 1100px;
     margin:0 auto;
 }
+
