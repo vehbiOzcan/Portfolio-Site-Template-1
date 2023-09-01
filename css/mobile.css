@@ -5,3 +5,14 @@
     overflow: hidden;
     height: 90px;
 }
+
+#skills .items {
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills .items .item {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}

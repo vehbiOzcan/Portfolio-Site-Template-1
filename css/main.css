@@ -40,6 +40,7 @@ a {
 
 #navbar ul li a:hover {
     background-color: #5C5470;
+    transition: all 175ms ease-in;
 }
 
 /* ********** HOME SECTION ************* */
@@ -78,3 +79,28 @@ a {
     border: 0.5px solid #5C5470;
     transition: all 0.2s ease-in;
 } */
+
+#skills {
+    color: #B9B4C7;
+    padding: 1rem;
+}
+
+#skills .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 1rem;
+}
+
+#skills .items .item:hover {
+    color: #FFFBF5;
+    opacity: 0.8;
+    transition: all 0.2s ease-in;
+}
+
+

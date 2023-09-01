@@ -67,6 +67,7 @@
 
 .btn-dark {
     background-color: #5C5470;
+    border: 0.5px solid #5C5470;
     color: #fff;
 }
 
