@@ -16,3 +16,32 @@
     text-align: center;
     padding: 1rem;
 }
+
+.projects .project {
+    flex-direction: column;
+}
+
+.projects .project .project-info .goto {
+    padding: 0.5rem;
+}
+
+.projects .project .project-image img {
+    width: 300px;
+}
+
+.projects .project .project-image span {
+    position: absolute;
+    background-color: #B9B4C7;
+    color: white;
+    opacity: 0.7;
+    backdrop-filter: blur(3px);
+    padding: 0.2rem;
+    border-radius: 0 4px 0 4px;
+    left: 0;
+    bottom: 0;
+
+ }
+
+.projects .project .project-info .go-to a {
+    width: 100%;
+}

@@ -2,12 +2,15 @@
 .bg-night-grey-3 {
     background-color: #352F44;
 }
+
 .bg-night-grey-2 {
     background-color: #5C5470;
 }
+
 .bg-night-grey-1 {
     background-color: #B9B4C7;
 }
+
 .bg-cream-white-1 {
     background-color: #FAF0E6;
 }
@@ -39,6 +42,30 @@
 
 .text-decoration {
     text-decoration: none;
+}
+
+.text-xs {
+    font-size: smaller;
+}
+
+.text-s {
+    font-size: smaller;
+}
+
+.text-m {
+    font-size: medium;
+}
+
+.text-l {
+    font-size: large;
+}
+
+.text-xl {
+    font-size: larger;
+}
+
+.text-xxl {
+    font-size: x-large;
 }
 
 /* ************** HEADER ************** */
@@ -83,10 +110,32 @@
     text-align: center;
 }
 
+/* ************** FORMS ***************** */
+
+.form-groups {
+    padding: 0.25rem 0;
+}
+
+.form-groups label {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.form-control:focus {
+   outline: none;
+}
 /* ************** CONTAINER ************** */
 
 .container {
     max-width: 1100px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-

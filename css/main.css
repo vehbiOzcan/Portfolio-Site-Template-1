@@ -8,13 +8,20 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* h1, h2, h3, h4 {
+    font-family: 'Montserrat';
+} */
+
 a {
-    color:#FFFBF5;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFBF5;
     text-decoration: none;
 }
+
 /* ******** NAVBAR ***********/
+
 #navbar {
-    color:#FFFBF5;
+    color: #FFFBF5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +29,7 @@ a {
     height: 70px;
 }
 
-#navbar ul{
+#navbar ul {
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -33,7 +40,7 @@ a {
 
 }
 
-#navbar ul li a{
+#navbar ul li a {
     text-decoration: none;
     padding: 0.50rem;
 }
@@ -60,11 +67,11 @@ a {
     border-radius: 100%;
 }
 
-#home .name h2{
+#home .name h2 {
     margin-bottom: 0.75rem;
 }
 
-#home .name p{
+#home .name p {
     font-family: 'Montserrat', sans-serif;
     opacity: 0.7;
 }
@@ -79,6 +86,8 @@ a {
     border: 0.5px solid #5C5470;
     transition: all 0.2s ease-in;
 } */
+
+/* *************** SKILSS *************** */
 
 #skills {
     color: #B9B4C7;
@@ -103,4 +112,103 @@ a {
     transition: all 0.2s ease-in;
 }
 
+/* *************** PROJECT ************** */
 
+#project {
+    padding: 1rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.projects .project {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.projects .project .project-image {
+   display: flex;
+   margin-right: 0.5rem;
+   position: relative;
+}
+
+.projects .project .project-image span {
+    position: absolute;
+    background-color: #B9B4C7;
+    color: white;
+    opacity: 0.7;
+    backdrop-filter: blur(3px);
+    padding: 0.2rem;
+    border-radius: 0 4px 0 4px;
+    left: 0;
+    bottom: 0;
+
+ }
+
+.projects .project .project-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.projects .project .project-info .name {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.projects .project .project-info .description {
+    margin-bottom: 0.5rem;
+}
+
+.projects .project .project-info .instructor {
+    margin-bottom: 0.5rem;
+}
+
+.projects .project .project-info .category {
+    margin-bottom: 2rem;
+}
+
+.projects .project .project-info .go-to a {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* *************** CONTACT ************** */
+
+#contact {
+    color: #FFFBF5;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+   padding: 1rem;
+   font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+ }
