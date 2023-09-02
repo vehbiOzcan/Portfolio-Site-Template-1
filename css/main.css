@@ -200,6 +200,10 @@ a {
     align-self: center;
 }
 
+#contact button[type="submit"] {
+    transition: all 0.2s ease-in;
+}
+
 #contact .contact-form ul li a {
    padding: 1rem;
    font-size: 2rem;
